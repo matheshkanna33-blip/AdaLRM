@@ -1,0 +1,4 @@
+cd /d C:\Project\AdaLRM
+.venv\Scripts\activate
+cd baseline_model
+python run.py "C:\Project\AdaLRM\data\input_images\object2.png" --device cuda:0 --chunk-size 2048 --mc-resolution 256 --output-dir "C:\Project\AdaLRM\outputs\demo" --model-save-format obj --bake-texture --texture-resolution 2048
